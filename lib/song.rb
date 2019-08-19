@@ -28,8 +28,8 @@ class Song
 
   def self.genre_count
     genre_count = {}
-    @@genres.uniq.each do |key, value|
-      genre_count[:key] = value
+    @@genres.each do |genre|
+      genre_count[genre] += 1 
     end
   end
 
