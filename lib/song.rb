@@ -14,13 +14,13 @@ class Song
     @@genres << genre
   end
 
-  def count  
+  def count
   end
 
-  def artists   
+  def artists
   end
 
-  def genres   
+  def genres
   end
 
   def genre_count
