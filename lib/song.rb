@@ -31,7 +31,6 @@ class Song
     @@genres.uniq.each do |key, value|
       genre_count[:key] = value
     end
-    genre_count
   end
 
   def self.artist_count
